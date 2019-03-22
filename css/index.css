@@ -85,6 +85,10 @@ nav a {
     color: black;
 }
 
+nav a:hover {
+    color: orangered;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -95,8 +99,11 @@ nav a {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 20px 1%; 
+}
+
+.top-content .about {
+    padding: 20px 0;
 }
 
 .middle-content {
@@ -158,6 +165,11 @@ nav a {
     border-radius: 10px;
     padding: 10px 20px;
     margin: 20px 0;
+}
+
+.middle button:hover {
+    background: orangered;
+    color: white;
 }
 
 .bottom-content {
